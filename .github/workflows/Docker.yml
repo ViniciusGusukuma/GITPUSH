@@ -4,7 +4,6 @@ on:
   workflow_call: 
 
 jobs:
-
   docker:
     runs-on: ubuntu-latest
     steps:
@@ -18,3 +17,5 @@ jobs:
       with:
         username: viniciusgusukuma
         password: ${{ secrets.PASSWORD_DOCKER_HUB }}
+
+    
